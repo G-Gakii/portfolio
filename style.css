@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimage{
+    height: 100vh;
+    background: url("/Users/gallantgakii/Documents/portfolio-website/images/hero image.jpg");
+    background-size: cover;
+    position: relative;
+}
+.hero-title{
+    font-size: 4.5rem;
+    color: antiquewhite;
+}
+.hero-desc{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+.hero-text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% );
+}
+.about-image{
+    width: 100%;
+}
+.service-test.card{
+    height: 280px;
+    cursor: pointer;
+}
+.card-title{
+    text-align: center;
+}
+.navbarScroll.navbarDark {
+    background-color: black;}
+
+    #footer {
+        background-color: darkcyan;
+        text-align: center;
+    }   
+.icon{
+    padding: 8px;
+    width: 5%;
+    height: auto;
+}    
+
